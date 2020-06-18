@@ -6,7 +6,7 @@ body {
 	background: url(start.png) no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 95vh;
+/* 	height: 95vh; */
 	font-family: Microsoft Sans Serif;
 	font-size: 20px;
 	color: white;
@@ -15,7 +15,7 @@ body {
 
 .wrap {
 	width: 30%;
-	margin 20px
+	margin 20px;
 	padding: 20px; 
 	border: 2px solid black;
 	border-radius: 20px;
