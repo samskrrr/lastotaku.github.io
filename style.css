@@ -3,10 +3,10 @@ body {
 	text-align: center;
 	margin-top: 100px;
 	cursor: default;
-	background: url(start.png) no-repeat;
+	background: url(start.png);
 	background-size: cover;
 	background-position: center;
-	height: 95vh;
+/* 	height: 95vh; */
 	font-family: Microsoft Sans Serif;
 	font-size: 20px;
 	color: white;
@@ -21,7 +21,7 @@ body {
 	border-radius: 20px;
         background-color: black;
         opacity: 0.8;
-	height: none;
+/* 	height: none; */
 }
 
 .button {
