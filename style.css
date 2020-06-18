@@ -1,0 +1,42 @@
+
+body {
+	text-align: center;
+	margin-top: 100px;
+	cursor: default;
+	background: url(start.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 95vh;
+	font-family: Microsoft Sans Serif;
+	font-size: 20px;
+	color: black;
+	display: flex;
+}
+
+.wrap {
+	width: 25%;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 100px; 
+/*	border: 2px solid black;
+	border-radius: 20px;*/
+}
+
+.button {
+	background-color: #d40b0b;
+	border: none;
+	color: white;
+	font-size: 130%;
+	padding: 10px 15px;
+	margin-top: 50px;
+	width: 60%;
+	cursor: pointer;
+	border-radius: 50px;
+	outline: none;
+	transition: all 0.3s;
+	font-family: Kristen ITC;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}

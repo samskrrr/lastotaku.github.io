@@ -1,0 +1,95 @@
+
+body {
+	padding: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: url(image.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	font-family: comfortaa, Microsoft Sans Serif;
+	color: white;
+}
+
+h1 {
+	background-color: black;
+	opacity: 0.9;
+	padding: 20px;
+	cursor: default;
+	line-height: 40px;
+}
+
+.h1 {
+	width: 25%;
+	padding: 20px;
+	margin-top: 200px;
+	/*border: 2px solid white;*/
+}
+
+.contact {
+	display: block;
+	margin-top: 100px;
+	display: block;
+	width: 20%;
+	display: flex;
+}
+
+.default {
+	cursor: default;
+}
+
+p {
+	line-height: 25px;
+	background-color: black;
+	opacity: 0.8;
+	padding: 10px;
+	float: left;
+	margin: 0px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	width: 100%;
+	display: flex;
+}
+
+ul li {
+	/*float: left;*/
+	height: 40px;
+	margin-right: 3px;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	line-height: 40px;
+	cursor: default;
+	width: 100%;
+}
+
+ul li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+ul li a:hover {
+	background-color: green;
+}
+
+ul li ul {
+	display: block;
+	/*width: 100%;*/
+}
+
+ul li ul li {
+	display: none;
+	cursor: pointer;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+
