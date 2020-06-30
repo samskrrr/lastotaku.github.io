@@ -3,10 +3,10 @@ body {
 	text-align: center;
 	margin-top: 100px;
 	cursor: default;
-	background: url(start.png);
+	background: url(start.png) no-repeat;
 	background-size: center;
 	background-position: center;
-/* 	height: 95vh; */
+	height: 95vh;
 	font-family: Microsoft Sans Serif;
 	font-size: 20px;
 	color: white;
