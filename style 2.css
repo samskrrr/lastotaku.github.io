@@ -3,10 +3,11 @@ body {
 	padding: 0px;
 	margin-top: 20px;
 	margin-left: 20px;
-	background: url(image.png) no-repeat;
-	background-size: center;
+	background: url(image.jpg) no-repeat;
+	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	/*height: 90vh;*/
+	/*height: 100%;*/
 	font-family: comfortaa, 'Microsoft Sans Serif';
 	color: white;
 }
@@ -91,5 +92,3 @@ ul li ul li {
 ul li:hover ul li {
 	display: block;
 }
-
-
