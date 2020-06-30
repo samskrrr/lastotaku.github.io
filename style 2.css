@@ -4,10 +4,10 @@ body {
 	margin-top: 20px;
 	margin-left: 20px;
 	background: url(image.png) no-repeat;
-	background-size: cover;
+	background-size: center;
 	background-position: center;
 	height: 90vh;
-	font-family: comfortaa, Microsoft Sans Serif;
+	font-family: comfortaa, 'Microsoft Sans Serif';
 	color: white;
 }
 
