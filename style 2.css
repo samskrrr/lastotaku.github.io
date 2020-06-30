@@ -6,7 +6,7 @@ body {
 	background: url(image.jpg) no-repeat;
 	background-size: cover;
 	/*background-position: center;*/
-	/*height: 100%;*/
+	height: auto;
 	font-family: comfortaa, 'Microsoft Sans Serif';
 	color: white;
 }
