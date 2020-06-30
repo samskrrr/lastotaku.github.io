@@ -9,20 +9,20 @@ body {
 	background-size: cover;
 	background-position: center;
 
-	font-family: Microsoft Sans Serif;
+	font-family: 'Microsoft Sans Serif';
 	font-size: 20px;
 	color: white;
 	display: flex;
 }
 
 .wrap {
-	width: 30%;
+	width: auto;
 	margin: 20px;
 	padding: 20px; 
 	border: 2px solid black;
 	border-radius: 20px;
-    background-color: black;
-    opacity: 0.8;
+    	background-color: black;
+   	opacity: 0.8;
  	height: 50%; 
 }
 
@@ -38,7 +38,7 @@ body {
 	border-radius: 50px;
 	outline: none;
 	transition: all 0.3s;
-	font-family: Kristen ITC;
+	font-family: 'Microsoft Sans Serif';
 }
 
 .button:hover {
