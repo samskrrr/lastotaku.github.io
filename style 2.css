@@ -5,8 +5,7 @@ body {
 	margin-left: 20px;
 	background: url(image.jpg) no-repeat;
 	background-size: cover;
-	background-position: center;
-	/*height: 90vh;*/
+	/*background-position: center;*/
 	/*height: 100%;*/
 	font-family: comfortaa, 'Microsoft Sans Serif';
 	color: white;
@@ -14,34 +13,13 @@ body {
 
 h1 {
 	background-color: black;
-	opacity: 0.9;
-	padding: 20px;
-	cursor: default;
-	line-height: 40px;
-}
-
-.h1 {
-	width: auto;
-	padding: 20px;
-	margin-top: 200px;
-	background-color: black;
 	opacity: 0.8;
-	padding: 10px;
-	float: left;
-	margin: 0px;
-	/*border: 2px solid white;*/
-}
-
-.contact {
-	display: block;
-	margin-top: 100px;
-	display: block;
-	width: 20%;
 	display: flex;
-}
-
-.default {
-	cursor: default;
+	margin-top: 400px;
+	/*margin: 10px;*/
+	width: 50%;
+	padding: 20px;
+	line-height: 40px;
 }
 
 p {
@@ -51,6 +29,18 @@ p {
 	padding: 10px;
 	float: left;
 	margin: 0px;
+}
+
+.contact {
+	display: block;
+	margin: 50px 0px;
+	display: block;
+	width: 20%;
+	display: flex;
+}
+
+.default {
+	cursor: default;
 }
 
 ul {
